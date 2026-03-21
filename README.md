@@ -32,6 +32,7 @@ Este repositório também serve como registro da minha evolução prática ao lo
 
 Cada dia contém:
 
+```
 c-fundamentals/
 │
 ├── README.md
@@ -44,6 +45,7 @@ c-fundamentals/
 │   │   └── README.md
 │
 └── .gitignore
+```
 
 - README explicando o aprendizado
 
