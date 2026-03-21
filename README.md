@@ -32,6 +32,9 @@ Este repositório também serve como registro da minha evolução prática ao lo
 
 Cada dia contém:
 
+- Código fonte (`main.c`)
+- README explicando o aprendizado
+
 ```
 c-fundamentals/
 │
@@ -46,8 +49,6 @@ c-fundamentals/
 │
 └── .gitignore
 ```
-
-- README explicando o aprendizado
 
 ---
 
