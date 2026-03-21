@@ -1,0 +1,16 @@
+# Arquivos compilados (C)
+programa
+*.out
+*.exe
+*.o
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# VS Code
+.vscode/
+
+# Linux / sistema
+*.swp
+*~

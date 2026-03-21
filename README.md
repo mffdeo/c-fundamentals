@@ -1,75 +1,57 @@
-# 🧠 C Fundamentals
+# 🚀 Estudos em C
+
+![C](https://img.shields.io/badge/Linguagem-C-blue)
+![Status](https://img.shields.io/badge/Status-Em%20Progresso-yellow)
 
 Repositório dedicado ao estudo e prática da linguagem C, com foco em fundamentos sólidos de programação, estruturas de dados e algoritmos.
 
-## 🚀 Objetivo
+## 📅 Progresso
 
-Reforçar a base de programação de baixo nível, desenvolvendo habilidades essenciais como:
+| Dia | Tema | Status |
+|-----|------|--------|
+| Day 01 | Alocação dinâmica com malloc | ✅ |
+| Day 02 | Lista encadeada simples | ✅ |
+| Day 03 | Em breve... | ⏳ |
 
-* Manipulação de memória
-* Uso de ponteiros
-* Estruturas de dados clássicas
-* Implementação de algoritmos do zero
+---
+
+## 🧠 Objetivo
+
+Desenvolver uma base sólida em C, com foco em:
+
+- Estruturas de dados
+- Gerenciamento de memória
+- Boas práticas de programação
+- Lógica aplicada
 
 Este repositório também serve como registro da minha evolução prática ao longo dos estudos.
 
 ---
 
-## 📁 Estrutura (em evolução)
+## 📂 Estrutura
 
-```
+Cada dia contém:
 c-fundamentals/
- ├── day01/
- │    └── main.c
- ├── day02/
- │    └── ...
-```
+│
+├── README.md
+├── days/
+│   ├── day01/
+│   │   ├── main.c
+│   │   └── README.md
+│   ├── day02/
+│   │   ├── main.c
+│   │   └── README.md
+│
+└── .gitignore
 
-> A estrutura será aprimorada conforme a evolução dos estudos.
-
----
-
-## 📌 Conteúdos abordados
-
-* Ponteiros
-* Alocação dinâmica (`malloc`, `free`)
-* Structs
-* Listas encadeadas
-* Pilhas e filas
-* Tabelas hash
-* Árvores
-* Algoritmos de ordenação e busca
+- README explicando o aprendizado
 
 ---
 
-## 💻 Como executar
+## 🛠️ Tecnologias
 
-Compile o código com:
-
-```
-gcc main.c -o programa
-./programa
-```
-
----
-
-## 📅 Progresso
-
-* [x] Dia 1 - Revisão de ponteiros e alocação dinâmica
-* [ ] Dia 2 - Lista encadeada
-* [ ] Dia 3 - ...
-
----
-
-## 🧠 Motivação
-
-Este projeto faz parte do meu processo de evolução como desenvolvedor, buscando ir além do uso de frameworks e dominar os fundamentos da computação.
-
----
-
-## 📌 Observação
-
-Os códigos podem começar simples, mas serão constantemente refatorados e melhorados conforme o avanço nos estudos.
+- Linguagem C
+- GCC
 
 ---
 
@@ -79,6 +61,7 @@ Este é um projeto de estudo pessoal, mas sugestões e melhorias são sempre bem
 
 ---
 
-## 📎 Autor
+## 👨‍💻 Autor
 
-Desenvolvido por Marcos Oliveira
+Marcos Oliveira  
+Estudante de Programação
