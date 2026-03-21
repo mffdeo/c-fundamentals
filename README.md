@@ -31,6 +31,7 @@ Este repositório também serve como registro da minha evolução prática ao lo
 ## 📂 Estrutura
 
 Cada dia contém:
+
 c-fundamentals/
 │
 ├── README.md
