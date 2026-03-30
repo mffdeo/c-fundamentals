@@ -15,10 +15,11 @@ int main(){
     for(int i = 1;i<=3;i++){
         printf("Qual o seu chute?\n");
         scanf("%d", &chute);
-        printf("Seu chute foi %d\n", chute);
+        printf("Seu %do. chute foi %d\n", i, chute);
         int acertou = chute == numeroSecreto;
         if(acertou){
             printf("Parabéns, voce acertou\n");
+            break;
         }else{
             if(chute > numeroSecreto){
                 printf("Seu chute foi maior que o numero secreto\n");
