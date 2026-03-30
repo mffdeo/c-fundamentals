@@ -12,18 +12,23 @@ int main(){
     numeroSecreto = rand() % 100;
     int chute;
     
-    printf("Qual o seu chute?\n");
-    scanf("%d", &chute);
+    for(int i = 1;i<=3;i++){
+        printf("Qual o seu chute?\n");
+        scanf("%d", &chute);
 
-    if(chute == numeroSecreto){
-        printf("Parabéns, voce acertou\n");
-    }else{
-        if(chute > numeroSecreto){
-            printf("Seu chute foi maior que o numero secreto\n");
+        int acertou = chute == numeroSecreto;
+        if(acertou){
+            printf("Parabéns, voce acertou\n");
         }else{
-            printf("Seu chute foi menor que o numero secreto\n");   
-        }
+            if(chute > numeroSecreto){
+                printf("Seu chute foi maior que o numero secreto\n");
+            }else{
+                printf("Seu chute foi menor que o numero secreto\n");   
+            }
+        }        
     }
 
+
+    printf("Fim de jogo\n");
     return 0;
 }
