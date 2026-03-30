@@ -15,7 +15,7 @@ int main(){
     for(int i = 1;i<=3;i++){
         printf("Qual o seu chute?\n");
         scanf("%d", &chute);
-
+        printf("Seu chute foi %d\n", chute);
         int acertou = chute == numeroSecreto;
         if(acertou){
             printf("Parabéns, voce acertou\n");
