@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 //#define NUMERO_DE_TENTATIVAS 3
 int main(){
 
@@ -9,10 +10,13 @@ int main(){
 
     int numeroSecreto;
     // Gera um número aleatório ate 100;
+    int segundos = time(0);
+    srand(segundos);
     numeroSecreto = rand() % 100;
     int chute;
     int ganhou = 0;
     int tentativas = 1;
+    int pontos = 1000;
     
     while (!ganhou)
     {
@@ -28,17 +32,19 @@ int main(){
         int acertou = chute == numeroSecreto;
         int maior = chute > numeroSecreto;
         if(acertou) {
-        printf("Parabéns! Você acertou!\n");
-        ganhou = 1;
+            printf("Parabéns! Você acertou!\n");
+            ganhou = 1;
         } else if(maior) {
         printf("Seu chute foi maior do que o número secreto!\n");
         } else {
         printf("Seu chute foi menor do que o número secreto!\n");
         }
         tentativas++;
+        pontos = pontos - (abs(chute - numeroSecreto))/2;
     }
     
     printf("\nObrigado por jogar!\n");
+    printf("Você fez %d pontos\n", pontos);
     printf("Fim de jogo\n");
     return 0;
 }
